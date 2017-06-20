@@ -2,6 +2,27 @@
 
 XMR-Stak is a universal Stratum pool miner. This is the NVIDIA GPU mining version; there is also an [AMD GPU version](https://github.com/fireice-uk/xmr-stak-amd), and a [CPU version](https://github.com/fireice-uk/xmr-stak-cpu).
 
+## macOS
+
+This repo is intended to have valid source code to build the miner on macOS, why? 
+
+* Because it's my primary platform 
+* So that I can mine in all computers in the Apple Store (sarcasm)
+* Because I probably have too much free time
+
+
+Releases have only the xmr-stak binary and it's proper config file, they also submit 1% shares to me (sorry fierce-uk). If you like this or if it's useful to you please consider mining [at my pool](http://monero.us.to).
+
+**If you can't/don't want to install the dependencies (like when you're not an administrator), just use the binary under xmr-stak-nvidia-plain/ folder in releases, else read below.**
+
+### Install dependencies:
+
+* Install [brew](https://brew.sh)
+* Install openssl and libmicrohttpd, `brew install openssl libmicrohttpd`
+* Run the binary in Terminal app 
+
+
+
 ## HTML reports
 
 <img src="https://gist.githubusercontent.com/fireice-uk/2da301131ac01695ff79539a27b81d68/raw/e948641897ba79e5a6ee78e8248cc07779d6eac7/xmr-stak-nvidia-hashrate.png" width="260"> <img src="https://gist.githubusercontent.com/fireice-uk/2da301131ac01695ff79539a27b81d68/raw/e948641897ba79e5a6ee78e8248cc07779d6eac7/xmr-stak-nvidia-results.png" width="260"> <img src="https://gist.githubusercontent.com/fireice-uk/2da301131ac01695ff79539a27b81d68/raw/e948641897ba79e5a6ee78e8248cc07779d6eac7/xmr-stak-nvidia-connection.png" width="260">
